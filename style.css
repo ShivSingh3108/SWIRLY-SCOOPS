@@ -1,0 +1,64 @@
+#navbar-wrapper {
+    background-color: #000000!important; /* Navbar background color */
+    border-bottom: 1px solid #000000!important; /* Bottom border */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)!important; /* Shadow effect */
+    position: fixed!important; /* Make navbar sticky */
+    top: 0!important; 
+    left: 0!important;/* Stick to the top */
+    z-index: 1000!important;
+    width: 100%!important; /* Full width */
+    border-radius: 10px!important; /* Rounded corners */
+}
+
+#navbar ul {
+    list-style-type: none!important; /* Remove default list style */
+    padding: 0!important; /* Remove default padding */
+    margin: 0!important; /* Remove default margin */
+    overflow: hidden!important; /* Clear floats */
+}
+
+#navbar li {
+    float: left!important; /* Align items horizontally */
+}
+
+#navbar a {
+    display: block;
+    color: rgb(255, 255, 255) !important;              /* 🔐 force white text */
+    background-color: #111 !important;    /* 🔐 force background */
+    text-align: center!important;
+    padding: 14px 16px!important; /* Padding for links */
+    text-decoration: none !important;
+    font-size: 18px !important;
+    font-family: sans-serif !important;
+    position-anchor: relative!important; /* Anchor position */
+    border-radius: 10px!important; /* Rounded corners */
+    
+}
+
+#navbar a:hover {
+    background-color: #333 !important;    /* 🔐 force hover color */
+    color: yellow !important;             /* 🔐 force hover text */
+}
+
+#footer-wrapper {
+    background-color: #0a000a!important; /* Footer background color */
+    padding: 20px !important; /* Padding for footer *//* Positioning */
+    margin-top: 19%!important; /* optional spacing from content */
+    width: 100%!important; /* Full width */
+  }
+  
+  .footer {
+    max-width: 800px!important; /* Max width for footer */
+    margin: 0 auto!important; /* Center footer */
+    text-align: center!important; /* Center text */
+    bottom:0%!important; /* Stick to the bottom */
+  }
+  
+  .footer-text {
+    color: #ffffff!important; /* Footer text color */
+    font-size: 1.1em!important; /* Font size */
+    text-shadow: 0 0 5px #ffffff!important; /* Text shadow */
+  }
+  
+  
+  
